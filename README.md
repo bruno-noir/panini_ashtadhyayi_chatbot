@@ -9,7 +9,27 @@ The Panini Ashtadhyayi Chatbot leverages modern NLP techniques to provide an int
 - **Accessible Web Interface**: Designed to be user-friendly and responsive across various devices.
 
 ## Installation
-Follow these steps to set up the project locally:
+To set up the project locally:
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/bruno-noir/panini_ashtadhyayi_chatbot.git
+
+1. Navigate to the project directory:
+   ```bash
+   cd panini_ashtadhyayi_chatbot
+
+1. Install dependencies:
+   ```bash
+   npm install
+
+1. Create a .env file and add the model server URL:
+   ```bash
+   MODEL_SERVER_URL=your_model_server_url_here
+
+1. Run the development server:
+   ```bash
+   npm run dev
 
 ## Usage
 Open your web browser and visit `http://localhost:3000` to interact with the chatbot.
